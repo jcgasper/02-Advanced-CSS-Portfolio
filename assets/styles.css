@@ -121,7 +121,7 @@ header nav ul li a:hover {
 /* portfolio i  */
 .portfolio-1 {
     background-image: url("../images/01-html-css-git-homework-demo.png");
-    background-size:auto;
+    background-size:cover;
     grid-area: 1 / 1 / 4 / 5;
     
   
@@ -244,28 +244,14 @@ header nav ul li a:hover {
       justify-content: center;
       position: relative;
     }
-    header h1 {
-      width: 100%;
-      padding: 5px;
-      text-align: center;
-      font-size: 26px;
-    }
+    
     header nav ul {
       justify-content: center;
       width: 100%;
-    }
-    header nav ul li a {
-        font-size: 20px;
-    }
-    header nav a {
-    background-size: 100%;
     
-   }
-
-   .contact address a {
-       font-size: 24px;
-       width: 80%;
-   }
+    }
+    
+  
 }
 
 /* Media Query for tablets/phones */
@@ -289,17 +275,11 @@ header nav ul li a:hover {
         .portfolio-5 {
             background-size:cover;
       }
-    
-    
-    
-    
-    
-    .profile-pic {
+      .profile-pic {
         position: relative;
     }
     
     
-
     .contact address {
         flex-direction: column;
         align-items: flex-start;
